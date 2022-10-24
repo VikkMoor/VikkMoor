@@ -5,7 +5,7 @@
 
 
 <h2 align="center">
-  My Github Stats<img src="https://media0.giphy.com/media/nvKjkfWIl2msw/200w.webp" width="50">
+  My GitHub Stats<img src="https://media0.giphy.com/media/nvKjkfWIl2msw/200w.webp" width="50">
 </h2>
 
 <h2 align="center">
@@ -18,5 +18,5 @@
 </h2>
 
 <h2 align="center">
-  <img src="https://media3.giphy.com/media/3ohhwyiB8a06gIuIoM/200w.webp" width="60">
+  <img src="https://media3.giphy.com/media/3ohhwyiB8a06gIuIoM/200w.webp" width="100">
 </h2>
