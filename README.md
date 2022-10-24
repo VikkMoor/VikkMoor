@@ -18,5 +18,5 @@
 </h2>
 
 <h2 align="center">
-  <img src="https://media3.giphy.com/media/3ohhwyiB8a06gIuIoM/200w.webp" width="50">
+  <img src="https://media3.giphy.com/media/3ohhwyiB8a06gIuIoM/200w.webp" width="60">
 </h2>
