@@ -1,16 +1,19 @@
-### Hi there 👋
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/115675892/197508854-1d14d342-e5ae-4ad6-bfb5-20671e4fdc45.png" />
+</p align="center">
+  
 
-<!--
-**VikkMoor/VikkMoor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+<h2 align="center">
+  My Github Stats<img src="https://media0.giphy.com/media/nvKjkfWIl2msw/200w.webp" width="50">
+</h2>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h2 align="center">
+  <img  src = "https://github-readme-stats.vercel.app/api?username=VikkMoor&theme=great-gatsby&show_icons=true">
+  <img  src = "https://github-readme-stats.vercel.app/api/top-langs/?username=VikkMoor&theme=great-gatsby&layout=compact">
+</h2>
+
+<h2 align="center">
+  <img src = "https://github-readme-streak-stats.herokuapp.com/?user=VikkMoor&show_icons=true&locale=en&layout=compact&theme=great-gatsby&line_height=0">
+</h2>
+
