@@ -43,4 +43,6 @@
 
 ***HomeworkDotnetC#Seminar8:*** sort each row in matrix from max to min + № of row with min sum + product of 2 matrices.
 
+***HomeworkDotnetC#Seminar9:*** lil bit of recursion: N...1; M...N; Accerman function; sum of digits in number; A^B.
+
 ***To be continued..***
