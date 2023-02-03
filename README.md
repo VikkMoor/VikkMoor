@@ -12,6 +12,7 @@
   <img  src = "https://github-readme-stats.vercel.app/api?username=VikkMoor&theme=great-gatsby&show_icons=true">
   <img  src = "https://github-readme-stats.vercel.app/api/top-langs/?username=VikkMoor&theme=great-gatsby&layout=compact">
 </h2>
+</h2>
 
 <h2 align="center">
   <img src = "https://github-readme-streak-stats.herokuapp.com/?user=VikkMoor&show_icons=true&locale=en&layout=compact&theme=great-gatsby&line_height=0">
