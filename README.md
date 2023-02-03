@@ -10,9 +10,10 @@
 
 <h2 align="center">
   <img  src = "https://github-readme-stats.vercel.app/api?username=VikkMoor&theme=great-gatsby&show_icons=true">
+</h2>  
+  
+<h2 align="center">
   <img  src = "https://github-readme-stats.vercel.app/api/top-langs/?username=VikkMoor&theme=great-gatsby&layout=compact">
-</h2>
-
 </h2>
 
 <h2 align="center">
