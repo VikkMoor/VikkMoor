@@ -25,7 +25,7 @@
 </h2>
 
 <h2 align="center">
-  NAVIGATION:
+  NAVIGATION (С№):
 </h2>
 
 ***DotnetLec3:*** string Method (int count, string text) + "string Replace" example.
@@ -47,5 +47,3 @@
 ***HomeworkDotnetC#Seminar8:*** sort each row in matrix from max to min + № of row with min sum + product of 2 matrices.
 
 ***HomeworkDotnetC#Seminar9:*** lil bit of recursion: N...1; M...N; Ackermann function; sum of digits in number; A^B.
-
-***To be continued..***
