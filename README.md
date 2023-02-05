@@ -25,7 +25,7 @@
 </h2>
 
 <h2 align="center">
-  NAVIGATION (С№):
+  NAVIGATION (С#):
 </h2>
 
 ***DotnetLec3:*** string Method (int count, string text) + "string Replace" example.
