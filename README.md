@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="chritmas1.jpg" />
+  <img src="pic.jpg" />
 </p align="center">
   
 
