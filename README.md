@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[pic.jpg](https://github.com/VikkMoor/VikkMoor/blob/main/1670036593_2-pibig-info-p-krasivii-pikselnii-fon-oboi-2.jpg)" />
+  <img src="1670036593_2-pibig-info-p-krasivii-pikselnii-fon-oboi-2.jpg)" />
 </p align="center">
   
 
