@@ -36,7 +36,7 @@
 
 ***Seminar6TasksDotnet:*** method for reverse random array + decimal number to binary + string of numbers => int array.
 
-***Seminar8TasksDotnet:*** rows to columns and versa + how much times each digit occcurs in matrix + delete row and column + Pascal's triangle.
+***Seminar8TasksDotnet:*** rows to columns and versa + how many times each digit occcurs in matrix + delete row and column + Pascal's triangle.
 
 ***HomeworkDotnetC#Seminar3:*** Palindrome or not (divisor = 1000, i++, divisor/10) + table of cubes.
 
