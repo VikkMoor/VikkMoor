@@ -28,7 +28,7 @@
   NAVIGATION (С# tasks):
 </h2>
 
-***DotnetLec3:*** string Method (int count, string text) + "string Replace" example.
+***DotnetLec3 [here](https://github.com/VikkMoor/DotnetLec3.git):*** string Method (int count, string text) + "string Replace" example.
 
 ***DotnetLec6:*** converting text to int array with coordinates.
 
