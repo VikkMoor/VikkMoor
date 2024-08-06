@@ -28,7 +28,7 @@ jobs:
       - name: Deploy Snake to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
-          target_branch: output  # Ветка, в которую будет произведён деплой
+          target_branch: gh-pages  # Ветка, в которую будет произведён деплой
           build_dir: ./dist  # Директория с вашим сгенерированным SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
