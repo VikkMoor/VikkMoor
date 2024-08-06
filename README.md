@@ -23,3 +23,6 @@
 <h2 align="center">
   <img src="https://media3.giphy.com/media/3ohhwyiB8a06gIuIoM/200w.webp" width="200">
 </h2>
+
+![GitHub Snake Light](https://github.com/VikkMoor/VikkMoor/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![GitHub Snake dark](https://github.com/VikkMoor/VikkMoor/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
