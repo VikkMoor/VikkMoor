@@ -2,26 +2,23 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 5 * * *"  # Запуск каждый день в 05:00 по UTC
-  workflow_dispatch:  # Возможность ручного запуска
+    - cron: "0 5 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Загружаем репозиторий
       - uses: actions/checkout@v2
 
-      # Генерируем змейку и сохраняем в SVG
       - name: Generate Snake
         uses: Platane/snk@v2
         with:
-          github_user_name: VikkMoor  # Замените 'username' на ваше имя пользователя
-          outputs: dist/snake.svg
+          github_user_name: VikkMoor  # Замените на ваше имя пользователя
 
-      # Деплоим SVG на GitHub Pages
-      - name: Deploy Snake to GitHub Pages
+      - name: Upload Snake to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
