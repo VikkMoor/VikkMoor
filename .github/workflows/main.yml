@@ -9,26 +9,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Шаг 1: Клонирование репозитория
-      - uses: actions/checkout@v2
+      # Обновленный шаг клонирования репозитория
+      - uses: actions/checkout@v3
 
-      # Шаг 2: Генерация змейки
+      # Генерация змейки
       - name: Generate Snake
         uses: Platane/snk@v2
         with:
           github_user_name: VikkMoor  # Замените на ваше имя пользователя
 
-      # Шаг 3: Сохранение SVG-файла
+      # Сохранение SVG-файла
       - name: Save Snake SVG
         run: |
           mkdir -p dist
           mv github-contribution-grid-snake.svg dist/github-contribution-grid-snake.svg
 
-      # Шаг 4: Загрузка змейки на GitHub Pages
+      # Деплой на GitHub Pages
       - name: Deploy Snake to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
-          target_branch: gh-pages  # Ветка, в которую будет произведён деплой
+          target_branch: output  # Ветка, в которую будет произведён деплой
           build_dir: ./dist  # Директория с вашим сгенерированным SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
