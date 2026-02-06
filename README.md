@@ -9,11 +9,7 @@
 </h2>
 
 <p align="center">
-  <img src="./stats/github-stats.svg">
-</p>
-
-<p align="center">
-  <img src="./stats/top-langs.svg">
+  <img src="./stats/github-metrics.svg" alt="GitHub statistics">
 </p>
 
 <h2 align="center">
