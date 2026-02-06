@@ -1,1 +1,32 @@
+name: Generate GitHub Stats
 
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: stats/github-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: VikkMoor
+          base: header, activity, repositories
+          plugin_languages: yes
+          plugin_languages_limit: 6
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add stats/github-metrics.svg
+          git commit -m "Update GitHub metrics" || exit 0
+          git push
