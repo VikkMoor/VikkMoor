@@ -5,7 +5,7 @@
 
 
 <h2 align="center">
-  My GitHub Stats <img src="2022-10-25_11-54-39.png">
+  My GitHub Stats <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZqZDlzOXJqeG1vc3F5bXR1Yno1bG9qMDhrbWcxMjhydzRkbWFhYSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/hjZ3T2Eso1wJ8QWoCl/giphy.gif" width="200">
 </h2>
 
 <p align="center">
