@@ -8,9 +8,13 @@
   My GitHub Stats <img src="2022-10-25_11-54-39.png">
 </h2>
 
-![GitHub stats](./stats/github-stats.svg)
+<h2 align="center">
+  <img src = "./stats/github-stats.svg">
+</h2>
 
-![Top languages](./stats/top-langs.svg)
+<h2 align="center">
+  <img src = "./stats/top-langs.svg">
+</h2>
 
 <h2 align="center">
   <img src = "https://github-readme-streak-stats.herokuapp.com/?user=VikkMoor&show_icons=true&locale=en&layout=compact&theme=great-gatsby&line_height=0">
