@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="1670036593_2-pibig-info-p-krasivii-pikselnii-fon-oboi-2.jpg" />
-  <img src="зима красота.jpg" />
+   <img src="зима красота.jpg" />
 </p align="center">
 
 
