@@ -17,13 +17,14 @@ jobs:
       - name: Download GitHub stats SVG
         run: |
           curl -L \
-            "https://github-readme-stats.vercel.app/api?username=VikkMoor&show_icons=true&theme=dark" \
+            "https://github-readme-stats.vercel.app/api?username=VikkMoor&show_icons=true&theme=dark&token=${{ secrets.GITHUB_TOKEN }}" \
             -o stats/github-stats.svg
+
 
       - name: Download Top languages SVG
         run: |
           curl -L \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=VikkMoor&layout=compact&theme=dark" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=VikkMoor&layout=compact&theme=dark&token=${{ secrets.GITHUB_TOKEN }}" \
             -o stats/top-langs.svg
 
       - name: Commit and push
