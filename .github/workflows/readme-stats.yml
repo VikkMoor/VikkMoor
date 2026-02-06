@@ -26,7 +26,7 @@ jobs:
           filename: stats/github-metrics.svg
 
           # БАЗОВАЯ СТАТИСТИКА (аналог основной карточки)
-          base: header, activity, repositories
+          base: header, repositories
           base_hireable: false
 
           # ЯЗЫКИ (аналог Top Langs)
@@ -43,7 +43,7 @@ jobs:
           config_display: block
           config_padding: 0, 5%
           config_width: 700
-          config_timezone: Europe/Moscow
+          config_height: 900
           config_theme: dark
           
 
