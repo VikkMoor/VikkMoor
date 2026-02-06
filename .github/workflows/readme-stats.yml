@@ -40,7 +40,8 @@ jobs:
 
           # ВНЕШНИЙ ВИД
           config_display: block
-          config_padding: 0, 5%
+          config_padding: 0, 4%
+          config_width: 600
           config_timezone: Europe/Moscow
           config_theme: dark
           
