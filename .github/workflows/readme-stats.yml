@@ -17,7 +17,7 @@ jobs:
       - name: Download GitHub stats SVG
         run: |
           curl -L \
-            "https://github-readme-stats.vercel.app/api?username=VikkMoor&show_icons=true&theme=dark&token=${{ secrets.GITHUB_TOKEN }}" \
+            "https://github-readme-stats.vercel.app/api?username=VikkMoor&show_icons=false&theme=dark&token=${{ secrets.GITHUB_TOKEN }}" \
             -o stats/github-stats.svg
 
 
