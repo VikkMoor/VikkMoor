@@ -1,16 +1,26 @@
-## Hi there 👋
+<p align="center">
+  <img src="1670036593_2-pibig-info-p-krasivii-pikselnii-fon-oboi-2.jpg" />
+  <img src="зима красота.jpg" />
+</p align="center">
 
-<!--
-**VikkMoor/VikkMoor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h2 align="center">
+  My GitHub Stats <img src="2022-10-25_11-54-39.png">
+</h2>
+
+<h2 align="center">
+  <img  src = "https://github-readme-stats.vercel.app/api?username=VikkMoor&theme=great-gatsby&show_icons=true">
+</h2>  
+
+<h2 align="center">
+  <img  src = "https://github-readme-stats.vercel.app/api/top-langs/?username=VikkMoor&theme=great-gatsby&layout=compact">
+</h2>
+
+<h2 align="center">
+  <img src = "https://github-readme-streak-stats.herokuapp.com/?user=VikkMoor&show_icons=true&locale=en&layout=compact&theme=great-gatsby&line_height=0">
+</h2>
+
+<h2 align="center">
+  <img src="https://media3.giphy.com/media/3ohhwyiB8a06gIuIoM/200w.webp" width="200">
+</h2>
