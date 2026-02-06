@@ -18,12 +18,12 @@ jobs:
       - name: Generate GitHub metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: stats/github-metrics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           user: VikkMoor
-          base: header, activity, repositories
+          filename: stats/github-metrics.svg
+          base: header, repositories
           plugin_languages: yes
-          plugin_languages_limit: 6
+          plugin_languages_limit: 5
 
       - name: Commit and push
         run: |
