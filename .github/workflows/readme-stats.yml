@@ -1,0 +1,35 @@
+name: Generate README Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # раз в неделю
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download GitHub stats SVG
+        run: |
+          curl -L \
+            "https://github-readme-stats.vercel.app/api?username=VikkMoor&show_icons=true&theme=dark" \
+            -o stats/github-stats.svg
+
+      - name: Download Top languages SVG
+        run: |
+          curl -L \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=VikkMoor&layout=compact&theme=dark" \
+            -o stats/top-langs.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add stats/github-stats.svg stats/top-langs.svg
+          git commit -m "Update README stats" || exit 0
+          git push
