@@ -36,14 +36,13 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_colors: github
           plugin_languages_indepth: true
-          plugin_languages_sections: most-used
-          plugin_languages_layout: list
+          plugin_languages_layout: compact
 
 
           # ВНЕШНИЙ ВИД
           config_display: block
-          config_padding: 0, 4%
-          config_width: 600
+          config_padding: 0, 5%
+          config_width: 700
           config_timezone: Europe/Moscow
           config_theme: dark
           
