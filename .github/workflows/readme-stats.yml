@@ -1,36 +1,52 @@
-name: Generate README Stats
+name: Generate GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * 1"   # раз в неделю
+    - cron: "0 0 * * 1"   # раз в неделю, понедельник
   workflow_dispatch:
 
 jobs:
-  stats:
+  generate:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Download GitHub stats SVG
-        run: |
-          curl -L \
-            "https://github-readme-stats.vercel.app/api?username=VikkMoor&show_icons=false&theme=dark&token=${{ secrets.GITHUB_TOKEN }}" \
-            -o stats/github-stats.svg
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: VikkMoor
 
+          # Куда сохраняем SVG
+          filename: stats/github-metrics.svg
 
-      - name: Download Top languages SVG
-        run: |
-          curl -L \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=VikkMoor&layout=compact&theme=dark&token=${{ secrets.GITHUB_TOKEN }}" \
-            -o stats/top-langs.svg
+          # БАЗОВАЯ СТАТИСТИКА (аналог основной карточки)
+          base: header, activity, repositories
+          base_hireable: false
+
+          # ЯЗЫКИ (аналог Top Langs)
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_threshold: 2%
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_colors: github
+          plugin_languages_indepth: false
+
+          # ВНЕШНИЙ ВИД
+          config_display: columns
+          config_padding: 0, 8%
+          config_timezone: Europe/Moscow
+          config_theme: dark
 
       - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add stats/github-stats.svg stats/top-langs.svg
-          git commit -m "Update README stats" || exit 0
+          git add stats/github-metrics.svg
+          git commit -m "Update GitHub metrics" || exit 0
           git push
