@@ -5,7 +5,7 @@
 
 
 <h2 align="center">
-  My GitHub Stats <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bXJtMjVucWF2cmg3bDRpMWM0YmNkMzNiN3doMGdvdDd0cTdmamw1dyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/y0AeQn1qrfMgUFEbI0/200w.webp" width="50">
+  My GitHub Stats <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3czhlc3VlOWxncjRsMDFtdzdtbTQ2eWJscnhpZTA0NjA4N2EwYWNoMCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/XEr125ErzTjEJXLYuc/200w.webp" width="50">
 </h2>
 
 <p align="center">
