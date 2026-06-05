@@ -12,9 +12,9 @@
   <img src="./stats/github-metrics.svg" alt="GitHub statistics">
 </p>
 
-<h2 align="center">
+<!-- <h2 align="center">
   <img src = "https://github-readme-streak-stats.herokuapp.com/?user=VikkMoor&show_icons=true&locale=en&layout=compact&theme=great-gatsby&line_height=0">
-</h2>
+</h2> -->
 
 <h2 align="center">
   <img src="https://media3.giphy.com/media/3ohhwyiB8a06gIuIoM/200w.webp" width="200">
