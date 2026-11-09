@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="зимушка.jpg" />
+    <img src="зимушка.png" />
 </p align="center">
 
 
