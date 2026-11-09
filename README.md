@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="зима красота.jpg" />
+    <img src="baa220c1-c0f0-4e47-ab1f-4aee5ea1f054.jpg" />
 </p align="center">
 
 
